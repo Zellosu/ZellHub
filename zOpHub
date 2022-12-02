@@ -1,6 +1,6 @@
 --[[
 	ui-engine-v2
-	version 1.3a
+	version 1.5
 	by Zell (Zell.zewx#1062)
 --]]
 
@@ -2035,12 +2035,16 @@ do -- Example UI
 		Tab:AddLabel("ZellWasHere.")
 		
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
-            Tab:AddButton("VG HUB", function()
+    Tab:AddButton("VG HUB", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 		end)
-     Tab:AddButton("Meow Hub", function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))()
+    Tab:AddButton("Meow Hub", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))()
         end)
+	Tab:AddButton("Premier Hub", function()
+		loadstring(game:HttpGet('https://scripts.luawl.com/13551/Premier.lua'))()
+		end)
+		
 
 end
 	local Tab = Window:AddTab("Utility")
@@ -2051,22 +2055,28 @@ end
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
 		
 
-    Tab:AddButton("InfiniteSpins", function()
-    repeat pcall(function() source = game:HttpGet('https://gist.github.com/AzureArts/99f5b5cfd49def461216e4d4689757ce/raw',true) end) if source == nil then wait(0.5) warn('HTTP Error, retrying') end until source ~= nil loadstring(source)()
-	end)
-	Tab:AddButton("NoCoolDown", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
-	end)
+    Tab:AddButton("InfSpins", function()
+		loadstring(game:HttpGet('https://gist.github.com/AzureArts/99f5b5cfd49def461216e4d4689757ce/raw'))()
+	    end)
+	Tab:AddButton("InfSpins V2", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/Revamps/main/SpyHub.lua"))()
+	    end)
+	Tab:AddButton("No Cd", function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+	    end)
  	Tab:AddButton("AntiAFK", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
-    end)
-		end
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
+        end)
+	Tab:AddButton("God Mode", function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/FwfNEqYz", true))()
+		end)
+	end
     local Tab = Window:AddTab("Side")
 
 	do -- Elements
 	
 			Tab:AddLabel("Draft has been here.")
-            Tab:AddLabel("Status: Don't Working")
+            Tab:AddLabel("Status: Don't Working	")
 
 		
 		    Tab:AddButton("Infinite Rell Coins", function()
