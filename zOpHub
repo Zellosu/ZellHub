@@ -2064,12 +2064,6 @@ end
 	Tab:AddButton("No Cd", function()
 	    loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
 	    end)
- 	Tab:AddButton("AntiAFK", function()
-	    loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
-        end)
-	Tab:AddButton("God Mode", function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/FwfNEqYz", true))()
-		end)
 	end
 	local Tab = Window:AddTab("Utility V2")
 
