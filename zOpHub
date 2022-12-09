@@ -2058,15 +2058,9 @@ end
     Tab:AddButton("InfSpins", function()
 		loadstring(game:HttpGet('https://gist.github.com/AzureArts/99f5b5cfd49def461216e4d4689757ce/raw'))()
 	    end)
-	Tab:AddButton("InfSpins V2", function()
-	    loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/Revamps/main/SpyHub.lua"))()
-	    end)
 	Tab:AddButton("No Cd", function()
 	    loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
 	    end)
-	Tab:AddButton("God Mode", function()
-            loadstring(game:HttpGet("https://pastebin.com/raw/FwfNEqYz", true))()
-            end)
 	end
 	local Tab = Window:AddTab("Utility V2")
 
@@ -2076,10 +2070,7 @@ end
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
 		
 
-		Tab:AddButton("Free BdBag", function()
-			loadstring(game:HttpGet('https://scripts.luawl.com/13551/Premier.lua'))()
-			end)
-		Tab:AddButton("Free BdChanger", function()
+		Tab:AddButton("MasteryChanger", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/xzqecc/Script/main/xzqec_changer_new"))()
 			end)	
 		Tab:AddButton("Stats Checker", function()	
