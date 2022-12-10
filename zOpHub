@@ -2037,13 +2037,16 @@ do -- Example UI
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
     Tab:AddButton("VG HUB", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
-		end)
+	end)
     Tab:AddButton("Meow Hub", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))()
         end)
-	Tab:AddButton("Kiwi Hub", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Xiovr/Roblox/main/SL.lua"))()
-		end)
+    Tab:AddButton("Kiwi Hub", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Xiovr/Roblox/main/SL.lua"))()
+	end)
+    Tab:AddButton("Spy Hub", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Corrupt2625/Revamps/main/SpyHub.lua"))()
+	end)
 		
 
 end
